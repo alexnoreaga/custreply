@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Customer Reply</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="judul" id="myHeader">
+	<div class="reload" onclick="myReload()">
+	<h2> Customer <span style="color: #70db70;">Reply</span></h2>
+	</div>
+</div>
+
+
+<div class="container">
+
+		<div class="wrap">
+			<div id="judul" class="button" onclick="persyaratanKredit()">
+				<p>Persyaratan Kredit</p>
+			</div>
+			<div class="copy" onclick="copyPersyaratan()">
+				<p>Copy</p>
+			</div>
+			<div id="persyaratan" style="display:none;" class="konten">
+				Persyaratan kredit
+				<br>
+				- Usia Minimal 21thn
+				<br>
+				- Status Bekerja / Wiraswasta
+				<br>
+				- Memiliki minimal 2 dokumen persyaratan
+				<br>
+				Cukup KTP dan 1 Dokumen Pendukung
+				<br>
+				Dokumen Pendukung:
+				<br>
+				- Sim <br>
+				- Npwp <br>
+				- Bpjs Kesehatan<br>
+				- Bpjs Ketenagakerjaan <br>
+				- Kartu Keluarga <br>
+				- Kartu ATM Bernama <br>
+			</div>
+		</div> <!---wrap--->
+
+
+
+		<div class="wrap">
+			<div id="judul" class="button" onclick="alamatLengkap()">
+				<p>Alamat Lengkap</p>
+			</div>
+			<div class="copy" onclick="copyAlamatLengkap()">
+				<p>Copy</p>
+			</div>
+			<div id="alamatlengkap" style="display:none;" class="konten">
+				Alamat 1<br>
+				Mall Metropolis Town Square (Metos)<br>
+				Lantai Dasar Blok GC1 No 7 <br>
+				Toko GALAXY CAMERA <br>
+				Cikokol, Tangerang<br>
+				<br>
+				Alamat 2<br>
+				Mall Depok Town Square (Detos)<br>
+				Lantai 2 Blok SS 2 No 8<br>
+				GALAXY CAMERA<br>
+				Beji, Depok<br>
+				<br>
+				Alamat 3<br>
+				Mall Poins Square<br>
+				Lantai 2 No 48<br>
+				Lebak Bulus,Cilandak,Jakarta Selatan<br>
+			</div>
+
+		</div> <!---wrap--->
+
+
+
+
+		<div class="wrap">
+			<div id="judul" class="button" onclick="alamatDepok()">
+				<p>Alamat Depok</p>
+			</div>
+			<div class="copy" onclick="copyAlamatDepok()">
+				<p>Copy</p>
+			</div>
+			<div id="alamatdepok" style="display:none;" class="konten">
+				Mall Depok Town Square (Detos) <br>
+				Lantai 2 Blok SS 2 No 8<br>
+				GALAXY CAMERA<br>
+				Beji, Depok<br>
+				<br>
+				Patokan : Di lantai paling atas samping samsung service center
+			</div>
+
+		</div> <!---wrap--->
+
+
+
+
+		<div class="wrap">
+			<div id="judul" class="button" onclick="alamatJakarta()">
+				<p>Alamat Jakarta</p>
+			</div>
+			<div class="copy" onclick="copyAlamatJakarta()">
+				<p>Copy</p>
+			</div>
+			<div id="alamatjakarta" style="display:none;" class="konten">
+				Mall Poins Square <br>
+				Lantai 2 No 48 <br>
+				Lebak Bulus,Cilandak,Jakarta Selatan <br>
+				<br>
+				Patokan : Naik Melalui Lift Barat ke lantai 2, toko pas samping kiri lift barat lantai 2
+
+			</div>
+
+		</div> <!---wrap--->
+
+
+
+
+		<div class="wrap">
+			<div id="judul" class="button" onclick="alamatTangerang()">
+				<p>Alamat Tangerang</p>
+			</div>
+			<div class="copy" onclick="copyAlamatTangerang()">
+				<p>Copy</p>
+			</div>
+			<div id="alamattangerang" style="display:none;" class="konten">
+				Mall Metropolis Town Square (Metos) <br>
+				Lantai Dasar Blok GC1 No 7 <br>
+				Toko GALAXY CAMERA <br>
+				Cikokol, Tangerang<br>
+				<br>
+				Patokan : Di lantai dasar samping panggung
+
+			</div>
+
+		</div> <!---wrap--->
+
+
+
+		<div class="wrap">
+			<div id="judul" class="button" onclick="alasanDitolak()">
+				<p>Alasan Ditolak</p>
+			</div>
+			<div class="copy" onclick="copyAlasanDitolak()">
+				<p>Copy</p>
+			</div>
+			<div id="alasanditolak" style="display:none;" class="konten">
+				Faktor yg umum pernah nunggak atau telat bayar(walau 1 atau 2 hari dari tgl jatuh tempo) di kredit lain seperti mobil,motor,kartu kredit,dll(sehingga mempengaruhi BI cecking). Kemudian bisa jadi karena nomor keluarga yg di minta tidak dapat di hubungi,tlpn dari pusat leasing tidak di angkat atau ada salah jawab,lalu ada juga faktor lain yg sifatnya privasi customernya itu sendiri yg gk bisa publik ketahui.
+
+			</div>
+
+		</div> <!---wrap--->
+
+
+		<div class="wrap">
+			<div id="judul" class="button" onclick="bungaHCI()">
+				<p>Bunga HCI</p>
+			</div>
+			<div class="copy" onclick="copyBungaHCI()">
+				<p>Copy</p>
+			</div>
+			<div id="bungahci" style="display:none;" class="konten">
+				- Bunga normal 3,69% perbulan (Tenor 12, 15, 18 & 24bln)<br>
+				- Khusus tenor 9 bulan bunga hanya 2.29% perbulan <br>
+				- Khusus tenor 6 bulan bunga hanya 0% perbulan (Terdapat biaya adm sebesar 5.5% yang dimasukkan ke harga produk.)
+			</div>
+		</div> <!---wrap--->
+
+
+		<div class="wrap">
+			<div id="judul" class="button" onclick="bungaNolPersen()">
+				<p>Bunga 0%</p>
+			</div>
+			<div class="copy" onclick="copyBungaNolPersen()">
+				<p>Copy</p>
+			</div>
+			<div id="bunganolpersen" style="display:none;" class="konten">
+				Promo Bunga 0% Khusus untuk tenor 6 bulan. <br>
+				DP sudah termasuk biaya admin sebesar 199rb dari Homecredit <br>
+				<br>
+				Terdapat biaya administrasi ekstra sebesar 5.5% serta adm 5rb/bulan yang sudah dimasukkan ke cicilan.<br>
+				Kesimpulan : Tidak ada biaya tambahan pada saat pengajuan kredit. Jika disetujui cukup membayar DP dan angsuran perbulan sesuai rincian pricelist.
+			</div>
+		</div> <!---wrap--->
+
+
+
+
+
+		<div class="wrap">
+			<div id="judul" class="button" onclick="caraKlaim()">
+				<p>Cara Klaim Fujifilm Gift</p>
+			</div>
+			<div class="copy" onclick="copyCaraKlaim()">
+				<p>Copy</p>
+			</div>
+			<div id="caraklaim" style="display:none;" class="konten">
+				Mekanisme klaim XTRA GIFT Fujifilm cukup membawa <br>
+				- Nota Pembelian <br>
+				- Kartu Garansi <br>
+				- KTP <br>
+				<br>
+				ke alamat dibawah ini : <br>
+				<br>
+				- PT. FUJIFILM INDONESIA <br>
+				Building Eightyeight Lt.36 @Kotakasablanka Jl. Kasablanka Kav.88 <br>
+				Telp 021-21282182 <br>
+				Hari Senin -  Jumat, Pukul 09.00 - 17.00 WIB. <br>
+
+				- CABANG PT.FUJIFILM INDONESIA (BANDUNG, JOGJAKARTA, SURABAYA, MAKASSAR)<br>
+				<br>
+				(Dapat diambil selama masa promo berjalan, jika lewat dari masa promo maka klaim tidak berlaku)
+			</div>
+		</div> <!---wrap--->
+
+
+		<div class="wrap">
+			<div id="judul" class="button" onclick="dataKeluarga()">
+				<p>Data Keluarga</p>
+			</div>
+			<div class="copy" onclick="copyDataKeluarga()">
+				<p>Copy</p>
+			</div>
+			<div id="datakeluarga" style="display:none;" class="konten">
+				Bagi yang belum 21thn bisa diwakilkan kakak atau orang tua
+				,Untuk pengajuan kredit menggunakan data saudara kakak atau orang tua,
+				Pastikan kakak atau orang tua agan/sis memenuhi persyaratan kredit dan harus ikut ke toko langsung untuk pengajuan kreditnya.
+			</div>
+		</div> <!---wrap--->
+
+
+		<div class="wrap">
+			<div id="judul" class="button" onclick="freePaket()">
+				<p>Free Paket Lengkap</p>
+			</div>
+			<div class="copy" onclick="copyFreePaket()">
+				<p>Copy</p>
+			</div>
+			<div id="freepaket" style="display:none;" class="konten">
+				FREE <br>
+				- Memory SD Sandisk 16GB <br>
+				- Tas Camera <br>
+				- Mini Tripod <br>
+				- Filter UV
+			</div>
+		</div> <!---wrap--->
+
+
+
+		<div class="wrap">
+			<div id="judul" class="button" onclick="tawkPagi()">
+				<p>Hi Tawk.to Selamat Pagi</p>
+			</div>
+			<div class="copy" onclick="copyTawkPagi()">
+				<p>Copy</p>
+			</div>
+			<div id="tawkpagi" style="display:none;" class="konten">
+				Selamat Pagi <br>
+				Selamat datang di live chat Customer Support Galaxy Camera dengan Alena <br>
+				ada perihal yang dapat kami bantu :)
+			</div>
+		</div> <!---wrap--->
+
+
+		<div class="wrap">
+			<div id="judul" class="button" onclick="tawkSiang()">
+				<p>Hi Tawk.to Selamat Siang</p>
+			</div>
+			<div class="copy" onclick="copyTawkSiang()">
+				<p>Copy</p>
+			</div>
+			<div id="tawksiang" style="display:none;" class="konten">
+				Selamat Siang <br>
+				Selamat datang di live chat Customer Support Galaxy Camera dengan Alena <br>
+				ada perihal yang dapat kami bantu :)
+			</div>
+		</div> <!---wrap--->
+
+		<div class="wrap">
+			<div id="judul" class="button" onclick="tawkSore()">
+				<p>Hi Tawk.to Selamat Sore</p>
+			</div>
+			<div class="copy" onclick="copyTawkSore()">
+				<p>Copy</p>
+			</div>
+			<div id="tawksore" style="display:none;" class="konten">
+				Selamat Sore<br>
+				Selamat datang di live chat Customer Support Galaxy Camera dengan Alena <br>
+				ada perihal yang dapat kami bantu :)
+			</div>
+		</div> <!---wrap--->
+
+
+		<div class="wrap">
+			<div id="judul" class="button" onclick="tawkMalam()">
+				<p>Hi Tawk.to Selamat Malam</p>
+			</div>
+			<div class="copy" onclick="copyTawkMalam()">
+				<p>Copy</p>
+			</div>
+			<div id="tawkmalam" style="display:none;" class="konten">
+				Selamat Malam<br>
+				Selamat datang di live chat Customer Support Galaxy Camera dengan Alena <br>
+				ada perihal yang dapat kami bantu :)
+			</div>
+		</div> <!---wrap--->
+
+
+		<div class="wrap">
+			<div id="judul" class="button" onclick="jamOperasional()">
+				<p>Jam Operasional</p>
+			</div>
+			<div class="copy" onclick="copyJamOperasional()">
+				<p>Copy</p>
+			</div>
+			<div id="jamoperasional" style="display:none;" class="konten">
+				Toko Buka Setiap Hari <br>
+				Dari jam 10:30 s/d jam 21:00 <br>
+				<br>
+				Jam Pengajuan Kredit <br>
+				Dari jam 12:00 s/d jam 21:00
+			</div>
+		</div> <!---wrap--->
+
+
+		<div class="wrap">
+			<div id="judul" class="button" onclick="resiEktp()">
+				<p>Ketentuan Resi Ektp</p>
+			</div>
+			<div class="copy" onclick="copyResiEktp()">
+				<p>Copy</p>
+			</div>
+			<div id="resiektp" style="display:none;" class="konten">
+				Menggunakan resi ektp bisa <br>
+				Ketentuan : <br>
+				Resi Asli<br>
+				Resi harus ada foto dan ttd <br>
+				Masa berlaku masih aktif (6 Bulan dari tgl pembuatan) <br>
+				Dokumen pendukung wajib SIM aktif atau Passport aktif
+			</div>
+		</div> <!---wrap--->
+
+
+		<div class="wrap">
+			<div id="judul" class="button" onclick="kreditLuar()">
+				<p>Kredit Luar Jabodetabek</p>
+			</div>
+			<div class="copy" onclick="copyKreditLuar()">
+				<p>Copy</p>
+			</div>
+			<div id="kreditluar" style="display:none;" class="konten">
+				Untuk luar Jabodetabek pengajuan kredit kamera/lensa via online silahkan klik link berikut <br>
+				https://galaxycamera.id/cicilan-online <br>
+				<br>
+				Bisa baca contoh cara pengajuan kreditnya di Link tsb <br>
+				Kemudian ikuti langkah-langkah pengajuan kreditnya ya. <br>
+				<br>
+
+				Atau bisa juga tanpa daftar dengan langsung pilih produk lalu klik "ADD TO CART"<br>
+
+				Lalu klik "VIEW CART AND CHECKOUT"<br>
+				Lalu klik "PROCED TO CHECKOUT"<br>
+				Lalu isi "SHIPPING ADDRESS" dengan benar dan pastikan "PAYMENT METHOD" menggunakan Home Credit Indonesia<br>
+				Lalu klik "PLACE ORDER NOW"<br>
+				Kemudian isi data-data yang diperlukan oleh Home Credit, dan ikuti proses kredit sampai selesai.<br>
+				Jika sdh di setujui akan ada sms untuk ttd kontrak dan info pembayaran DP via Alfamart/Indomart atau bisa juga transfer bank.<br>
+				Jika pembayaran DP sukses barang siap kami kirim.
+			</div>
+		</div> <!---wrap--->
+
+
+
+		<div class="wrap">
+			<div id="judul" class="button" onclick="lamaProses()">
+				<p>Lama Proses Kredit</p>
+			</div>
+			<div class="copy" onclick="copyLamaProses()">
+				<p>Copy</p>
+			</div>
+			<div id="lamaproses" style="display:none;" class="konten">
+				Proses pengajuan kredit ditoko kt langsung sekitar 15 menit, data nasabah akan diinput terlebih dahulu, setelah diinput tinggal menunggu proses evaluasi sekitar 15 menit, Proses evaluasi dilakukan oleh pihak Homecredit sebagai pihak pembiaya kredit nasabah. Jika disetujui nasabah cukup membayar DP, barang bisa langsung dibawa pulang.
+			</div>
+		</div> <!---wrap--->
+
+
+
+		<div class="wrap">
+			<div id="judul" class="button" onclick="linkEcom()">
+				<p>Link E-Commerce</p>
+			</div>
+			<div class="copy" onclick="copyLinkEcom()">
+				<p>Copy</p>
+			</div>
+			<div id="linkecom" style="display:none;" class="konten">
+				Web : https://galaxycamera.id/en/ <br>
+				Bukalapak : https://www.bukalapak.com/u/gcamera <br>
+				Tokopedia : https://www.tokopedia.com/galaxycamera <br>
+				Shopee : https://shopee.co.id/galaxycamera <br>
+				Lazada : https://www.lazada.co.id/shop/galaxycamera99/ <br>
+				Blibli : https://www.blibli.com/merchant/galaxy-camera/GAC-49845
+			</div>
+		</div> <!---wrap--->
+
+
+		<div class="wrap">
+			<div id="judul" class="button" onclick="listAngsuran()">
+				<p>List Angsuran Kamera & Lensa</p>
+			</div>
+			<div class="copy" onclick="copyListAngsuran()">
+				<p>Copy</p>
+			</div>
+			<div id="listang" style="display:none;" class="konten">
+				Untuk list lengkap cicilan kamera tanpa kartu kredit <br>
+				Silahkan klik link berikut <br>
+				https://galaxycamera.id/cicilan-tanpa-cc <br>
+				<br>
+				Untuk list lengkap cicilan lensa dan gimbal/stabilizer tanpa kartu kredit <br>
+				Silahkan klik link berikut <br>
+				https://galaxycamera.id/cicilan-aksesoris <br>
+
+			</div>
+		</div> <!---wrap--->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="wrap">
+			<div id="judul" class="button" onclick="noResi()">
+				<p>No Resi</p>
+			</div>
+			<div class="copy" onclick="copyNoResi()">
+				<p>Copy</p>
+			</div>
+			<div id="noresi" style="display:none;" class="konten">
+				Terima kasih sudah berbelanja di Galaxycamera.id <br>
+				Berikut No Resi anda <br>
+				<br>
+				No Resi : <br>
+				Ekspedisi : JNE Reguler. <br>
+ 				<br>
+				Harap konfirmasi kembali ke kami ya apabila barang sudah diterima <br>
+				Nama Penerima :  <br>
+				Status Hubungan Penerima :
+			</div>
+		</div> <!---wrap--->
+
+		<div class="wrap">
+			<div id="judul" class="button" onclick="bayarAngsuran()">
+				<p>Pembayaran Angsuran</p>
+			</div>
+			<div class="copy" onclick="copyBayarAngsuran()">
+				<p>Copy</p>
+			</div>
+			<div id="bayarangsuran" style="display:none;" class="konten">
+				Untuk pembayaran angsuran bisa melalui transfer Bank atau bisa juga melalui Indomaret/Alfamart.
+			</div>
+		</div> <!---wrap--->
+
+
+		<div class="wrap">
+			<div id="judul" class="button" onclick="rincian()">
+				<p>Rincian Kredit Tanpa CC</p>
+			</div>
+			<div class="copy" onclick="copyRincian()">
+				<p>Copy</p>
+			</div>
+			<div id="rincian" style="display:none;" class="konten">
+				Untuk list kredit tanpa kartu kredit bisa cek di https://galaxycamera.id/cicilan-tanpa-cc <br>
+				<br>
+				Untuk harga bisa cek di https://galaxycamera.id/en/kamera.html <br>
+				<br>
+				Untuk list lengkap cicilan lensa dan gimbal/stabilizer tanpa kartu kredit <br>
+				Silahkan klik link berikut <br>
+				https://galaxycamera.id/cicilan-aksesoris <br>
+			</div>
+		</div> <!---wrap--->
+
+
+		<div class="wrap">
+			<div id="judul" class="button" onclick="sedangAda()">
+				<p>Sedang Ada Angsuran di Homecredit</p>
+			</div>
+			<div class="copy" onclick="copySedangAda()">
+				<p>Copy</p>
+			</div>
+			<div id="sedangada" style="display:none;" class="konten">
+				Pengajuan Homecredit, apabila sedang ada angsuran berjalan di Homecredit dapat kembali mengajukan cicilan, minimal angsuran yang sedang berjalan sudah 4 bulan.
+			</div>
+		</div> <!---wrap--->
+
+
+		<div class="wrap">
+			<div id="judul" class="button" onclick="jatuhTempo()">
+				<p>Tanggal Jatuh Tempo</p>
+			</div>
+			<div class="copy" onclick="copyJatuhTempo()">
+				<p>Copy</p>
+			</div>
+			<div id="jatuhtempo" style="display:none;" class="konten">
+				Tanggal jatuh tempo di setiap bulannya adalah Mundur 3 hari dari tanggal pengajuan kreditnya. <br>
+				Contoh : Jika mengajuakan kredit di Tanggal 7 November 2017, Maka pembayaran pertama dilakukan sebelum atau pas Tanggal 4 Desember 2017
+			</div>
+		</div> <!---wrap--->
+
+
+		<div class="wrap">
+
+			<div id="judul" class="button" onclick="tanyaSyarat()">
+				<p>Tanya Persyaratan Kredit</p>
+			</div>
+
+			<div class="copy" onclick="copyTanyaSyarat()">
+				<p>Copy</p>
+			</div>
+			<div id="tanyasyarat" style="display:none;" class="konten">
+				Agan/Sis untuk persyaratan kreditnya kira-kira sudah ada ?
+			</div>
+		</div> <!---wrap--->
+
+
+				<div class="wrap">
+			<div id="judul" class="button" onclick="kartuKredit()">
+				<p>Transaksi Kartu Kredit</p>
+			</div>
+			<div class="copy" onclick="copyKartuKredit()">
+				<p>Copy</p>
+			</div>
+			<div id="kartukredit" style="display:none;" class="konten">
+				- DP 0 dan bunga 0% <br>
+				- CC harus berlogo visa/mastercard <br>
+				- Transaksi menggunakan CC bisa dilakukan di toko dengan membawa no hp yg terdaftar di CC tsb <br>
+				- Untuk cicilan perbulannya harga cash dibagi tenor yg diinginkan <br>
+				- Jika limit CC tidak mencukupi sisanya bisa cash<br>
+				- Berlaku juga pembayaran fullpayment.
+			</div>
+		</div> <!---wrap--->
+
+		<div class="wrap">
+	<div id="judul" class="button" onclick="terimaKasih()">
+		<p>Terima Kasih</p>
+	</div>
+	<div class="copy" onclick="copyTerimaKasih()">
+		<p>Copy</p>
+	</div>
+	<div id="terimakasih" style="display:none;" class="konten">
+		Terima kasih sudah menghubungi Galaxy Camera <br>
+		Untuk pertanyaan umum seputar kredit tanpa kartu kredit silahkan klik link berikut <br>
+		https://galaxycamera.id/cicilan-tanpa-cc#pertanyaan-umum <br>
+		<br>
+		Untuk melihat list angsuran lengkap cicilan tanpa kartu kredit silahkan klik link berikut <br>
+		https://galaxycamera.id/cicilan-tanpa-cc
+	</div>
+</div> <!---wrap--->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div style="margin-bottom:100px;"></div>
+
+
+</body>
+</html>

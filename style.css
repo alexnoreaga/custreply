@@ -1,0 +1,80 @@
+body{
+	font-family: calibri;
+
+}
+
+.wrap :hover{
+	background-color: #47d147;
+	color:white;
+	cursor:pointer;
+}
+
+.container{
+	margin:3px;
+	font-size:1em;
+	margin-top:80px;
+
+}
+
+.judul{
+	position: fixed;
+	background: white;
+	opacity: 0.9;
+	color:#404040;
+	top:0;
+	left:0;
+	right: 0;
+	border-bottom:1px solid #f2f2f2;
+
+}
+.judul  h2{
+	font-weight: bolder;
+	text-align: center;
+	color:#404040;
+
+
+}
+
+.wrap{
+	display:grid;
+ 	grid-template-columns : 4fr 1fr;
+ 	grid-gap: 5px;
+ 	margin-bottom: 5px;
+
+}
+
+.button {
+	padding:1px;
+	background-color: #f2f2f2;
+	color:#333333;
+	padding-left:25px;
+	border-radius:5px;
+
+
+}
+
+.copy{
+	padding:1px;
+	background-color:#70db70;
+	color:white;
+	text-align: center;
+	border-radius:5px;
+
+}
+
+
+.konten{
+	font-size: 0.9em;
+	border-radius: 5px;
+	padding:20px;
+	line-height: 1.5em;
+	color:#666666;
+	background-color:#f2f2f2;
+
+	padding-left:50px;
+
+}
+
+.reload:hover{
+	cursor: pointer;
+}
