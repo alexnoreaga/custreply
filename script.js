@@ -921,6 +921,253 @@ function terimaKasih() {
 
 //-------------------------------------------------------------------------------
 
+//-------------------------------------------------------------------------------
+
+
+
+
+function youtubeCanonM100() {
+    var x = document.getElementById("youtubecanonm100");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+    function copyyoutubeCanonM100() {
+        var x = document.getElementById("youtubecanonm100");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+
+    //Before we copy, we are going to select the text.
+    var text = document.getElementById("youtubecanonm100");
+    var selection = window.getSelection();
+    var range = document.createRange();
+    range.selectNodeContents(text);
+    selection.removeAllRanges();
+    selection.addRange(range);
+    //add to clipboard.
+    document.execCommand('copy');
+}
+
+//-------------------------------------------------------------------------------
+
+//-------------------------------------------------------------------------------
+
+
+
+
+function youtubeCanon200d2() {
+    var x = document.getElementById("youtubecanon200d2");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+    function copyyoutubeCanon200d2() {
+        var x = document.getElementById("youtubecanon200d2");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+
+    //Before we copy, we are going to select the text.
+    var text = document.getElementById("youtubecanon200d2");
+    var selection = window.getSelection();
+    var range = document.createRange();
+    range.selectNodeContents(text);
+    selection.removeAllRanges();
+    selection.addRange(range);
+    //add to clipboard.
+    document.execCommand('copy');
+}
+
+//-------------------------------------------------------------------------------
+
+//-------------------------------------------------------------------------------
+
+
+
+
+function youtubeSonyA5100() {
+    var x = document.getElementById("youtubesonya5100");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+    function copyyoutubeSonyA5100() {
+        var x = document.getElementById("youtubesonya5100");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+
+    //Before we copy, we are going to select the text.
+    var text = document.getElementById("youtubesonya5100");
+    var selection = window.getSelection();
+    var range = document.createRange();
+    range.selectNodeContents(text);
+    selection.removeAllRanges();
+    selection.addRange(range);
+    //add to clipboard.
+    document.execCommand('copy');
+}
+
+//-------------------------------------------------------------------------------
+
+//-------------------------------------------------------------------------------
+
+
+
+
+function youtubeChannel() {
+    var x = document.getElementById("youtubechannel");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+    function copyyoutubeChannel() {
+        var x = document.getElementById("youtubechannel");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+
+    //Before we copy, we are going to select the text.
+    var text = document.getElementById("youtubechannel");
+    var selection = window.getSelection();
+    var range = document.createRange();
+    range.selectNodeContents(text);
+    selection.removeAllRanges();
+    selection.addRange(range);
+    //add to clipboard.
+    document.execCommand('copy');
+}
+
+//-------------------------------------------------------------------------------
+
+
+//-------------------------------------------------------------------------------
+
+
+
+
+function phoneGapAppGalaxy() {
+    var x = document.getElementById("phonegapappgalaxy");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+    function copyphoneGapAppGalaxy() {
+        var x = document.getElementById("phonegapappgalaxy");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+
+    //Before we copy, we are going to select the text.
+    var text = document.getElementById("phonegapappgalaxy");
+    var selection = window.getSelection();
+    var range = document.createRange();
+    range.selectNodeContents(text);
+    selection.removeAllRanges();
+    selection.addRange(range);
+    //add to clipboard.
+    document.execCommand('copy');
+}
+
+//-------------------------------------------------------------------------------
+
+
+//-------------------------------------------------------------------------------
+
+
+
+
+function phoneGapAppCalculator() {
+    var x = document.getElementById("phonegapappcalculator");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+    function copyphoneGapAppCalculator() {
+        var x = document.getElementById("phonegapappcalculator");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+
+    //Before we copy, we are going to select the text.
+    var text = document.getElementById("phonegapappcalculator");
+    var selection = window.getSelection();
+    var range = document.createRange();
+    range.selectNodeContents(text);
+    selection.removeAllRanges();
+    selection.addRange(range);
+    //add to clipboard.
+    document.execCommand('copy');
+}
+
+//-------------------------------------------------------------------------------
+
+
+//-------------------------------------------------------------------------------
+
+
+
+
+function phoneGapAppCustReply() {
+    var x = document.getElementById("phonegapappcustreply");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+    function copyphoneGapAppCustReply() {
+        var x = document.getElementById("phonegapappcustreply");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+
+    //Before we copy, we are going to select the text.
+    var text = document.getElementById("phonegapappcustreply");
+    var selection = window.getSelection();
+    var range = document.createRange();
+    range.selectNodeContents(text);
+    selection.removeAllRanges();
+    selection.addRange(range);
+    //add to clipboard.
+    document.execCommand('copy');
+}
+
+//-------------------------------------------------------------------------------
 
 
 /*
