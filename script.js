@@ -161,6 +161,41 @@ function alamatTangerang() {
 
 //-------------------------------------------------------------------------------
 
+
+//-------------------------------------------------------------------------------
+
+
+function alamatSenen() {
+    var x = document.getElementById("alamatsenen");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+    function copyAlamatSenen() {
+
+        var x = document.getElementById("alamatsenen");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+
+    //Before we copy, we are going to select the text.
+    var text = document.getElementById("alamatsenen");
+    var selection = window.getSelection();
+    var range = document.createRange();
+    range.selectNodeContents(text);
+    selection.removeAllRanges();
+    selection.addRange(range);
+    //add to clipboard.
+    document.execCommand('copy');
+}
+
+//-------------------------------------------------------------------------------
+
 function alasanDitolak() {
     var x = document.getElementById("alasanditolak");
     if (x.style.display === "none") {
@@ -336,6 +371,40 @@ function freePaket() {
 
     //Before we copy, we are going to select the text.
     var text = document.getElementById("freepaket");
+    var selection = window.getSelection();
+    var range = document.createRange();
+    range.selectNodeContents(text);
+    selection.removeAllRanges();
+    selection.addRange(range);
+    //add to clipboard.
+    document.execCommand('copy');
+}
+
+//-------------------------------------------------------------------------------
+
+
+//-------------------------------------------------------------------------------
+
+
+function formatOrder() {
+    var x = document.getElementById("formatorder");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+    function copyFormatOrder() {
+        var x = document.getElementById("formatorder");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+
+    //Before we copy, we are going to select the text.
+    var text = document.getElementById("formatorder");
     var selection = window.getSelection();
     var range = document.createRange();
     range.selectNodeContents(text);
