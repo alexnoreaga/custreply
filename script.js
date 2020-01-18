@@ -568,6 +568,77 @@ function jamOperasional() {
     document.execCommand('copy');
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//-------------------------------------------------------------------------------
+
+
+function kataSambut() {
+    var x = document.getElementById("katasambut");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+    function copykataSambut() {
+        var x = document.getElementById("katasambut");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+
+    //Before we copy, we are going to select the text.
+    var text = document.getElementById("katasambut");
+    var selection = window.getSelection();
+    var range = document.createRange();
+    range.selectNodeContents(text);
+    selection.removeAllRanges();
+    selection.addRange(range);
+    //add to clipboard.
+    document.execCommand('copy');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //-------------------------------------------------------------------------------
 
 
