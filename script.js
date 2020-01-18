@@ -867,6 +867,7 @@ function bayarAngsuran() {
 
 //-------------------------------------------------------------------------------
 
+/**
 
 function rincian() {
     var x = document.getElementById("rincian");
@@ -896,6 +897,7 @@ function rincian() {
     document.execCommand('copy');
 }
 
+**/
 
 //-------------------------------------------------------------------------------
 
